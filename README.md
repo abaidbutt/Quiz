@@ -24,43 +24,38 @@ Django Quiz App is a web application built using the Django framework. It provid
 
 1. Clone the repository:
 
-   ```bash
+ ```bash
    git clone https://github.com/yourusername/django-quiz-app.git
    cd django-quiz-app
   ```
 Create and activate a virtual environment:
 
 ```bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 Install dependencies:
 
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 Run migrations:
 
 ```bash
-Copy code
 python manage.py migrate
 ```
 Create a superuser:
 
-
-
 ```bash
 python manage.py createsuperuser
-Run the development server:
 ```
-
+Run the development server:
 
 ```bash
 python manage.py runserver
-The app will be accessible at http://localhost:8000/.
 ```
+The app will be accessible at http://localhost:8000/.
+
 Usage
 Access the admin panel at http://localhost:8000/admin/ and log in with the superuser credentials.
 Create quizzes and add questions.
