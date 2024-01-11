@@ -30,15 +30,17 @@ Django Quiz App is a web application built using the Django framework. It provid
   ```
 Create and activate a virtual environment:
 
-bash
+```bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 Install dependencies:
 
-bash
+```bash
 Copy code
 pip install -r requirements.txt
+```
 Run migrations:
 
 ```bash
@@ -48,13 +50,13 @@ python manage.py migrate
 Create a superuser:
 
 
-Copy code
+
 ```bash
 python manage.py createsuperuser
 Run the development server:
 ```
 
-Copy code
+
 ```bash
 python manage.py runserver
 The app will be accessible at http://localhost:8000/.
