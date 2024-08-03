@@ -25,7 +25,7 @@ Django Quiz App is a web application built using the Django framework. It provid
 1. Clone the repository:
 
  ```bash
-   git clone https://github.com/yourusername/django-quiz-app.git
+   git clone https://github.com/abaidbutt/Quiz.git
    cd django-quiz-app
   ```
 Create and activate a virtual environment:
